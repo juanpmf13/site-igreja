@@ -221,9 +221,9 @@ body {
 /* BOTOES DE CONTATO WHATSAPP */
 .card-buttons {
     display: flex;
-    gap: 12px;
+    gap: 8px;
     margin-top: auto;
-    padding-top: 20px;
+    padding-top: 15px;
     width: 100%;
     justify-content: center; /* Centraliza os botões */
 }
@@ -232,25 +232,25 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 44px;
-    height: 44px;
+    width: 36px;
+    height: 36px;
     background-color: #25D366;
     border-radius: 50%; /* Botão redondo */
-    box-shadow: 0 4px 10px rgba(37, 211, 102, 0.25);
+    box-shadow: 0 3px 8px rgba(37, 211, 102, 0.2);
     transition: all 0.3s cubic-bezier(0.175, 0.885, 0.32, 1.275);
     text-decoration: none;
     border: none;
 }
 
 .btn-whatsapp:hover {
-    transform: scale(1.15) translateY(-3px);
-    box-shadow: 0 6px 15px rgba(37, 211, 102, 0.45);
+    transform: scale(1.15) translateY(-2px);
+    box-shadow: 0 5px 12px rgba(37, 211, 102, 0.35);
     background-color: #20ba5a;
 }
 
 .btn-whatsapp img {
-    width: 24px;
-    height: 24px;
+    width: 18px;
+    height: 18px;
     object-fit: contain;
 }
 
