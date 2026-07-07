@@ -244,8 +244,8 @@ body {
     display: inline-flex;
     align-items: center;
     justify-content: center;
-    width: 15px;
-    height: 15px;
+    width: 35px;
+    height: 35px;
     background-color: #25D366;
     border-radius: 50%;
     /* Botão redondo */
@@ -262,8 +262,8 @@ body {
 }
 
 .btn-whatsapp img {
-    width: 18px;
-    height: 18px;
+    width: 55px;
+    height: 55px;
     object-fit: contain;
 }
 
